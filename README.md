@@ -5,7 +5,7 @@ I currently have have no plans to use it, but the system was usable enough for a
 
 
 
-Might add a detailed documentation later, but now, here are the basics.
+Might add a detailed documentation later, but for now, here are the basics.
 
 1. Every class has one public function, which performs one task for the game.
 2. `Generate_Ticket` generaates a .csv template _(Tickets.csv)_, which can be imported into excel and printed. These can serve as custom tickets for the game. The parameters are self-explanatory.
