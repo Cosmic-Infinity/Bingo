@@ -13,3 +13,6 @@ Might add a detailed documentation later, but for now, here are the basics.
 4. `Play` is the main game. The numbers from _GeneratedList.txt_ is shown one by one for it to be announced.
 5. `Check_Result` is used once someone wins. Input how far down the random list you are, then enter the numbers of the winning card to check for a mismatch.
 6. `Save_Location` as the name implies, saves the location of the output files. By default it saves to _Desktop_ 
+
+
+P.S. The project was made in BlueJ so an easy way to use it will be to open it in BlueJ directly using the _package.bluej_ file
