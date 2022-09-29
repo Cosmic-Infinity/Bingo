@@ -5,8 +5,13 @@ import java.io.File;
 
 public class Check_Result extends Save_Location{
     public static void main() throws java.io.FileNotFoundException {
-
-        Scanner sc = new Scanner(new BufferedReader(new FileReader(file_source)));
+        Scanner sc = null;
+        try{
+            sc = new Scanner(new BufferedReader(new FileReader(file_source)));
+        } catch (Exception e){
+            System.out.println("GeneratedList.txt NOT FOUND. Have you used \"Random_Gen\" to create a number list?");
+            System.exit(1);
+        }
         Scanner ob = new Scanner(System.in);
 
         System.out.println("Which position have you reached in the announcement?");
